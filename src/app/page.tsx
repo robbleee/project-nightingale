@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { ArrowRight, Clock, DollarSign, HandHeart, CheckCircle, Star, Mail, MapPin, Menu, X, Target, Zap, Shield } from "lucide-react";
+import { ArrowRight, Clock, DollarSign, HandHeart, CheckCircle, Star, Mail, MapPin, Target, Zap, Shield } from "lucide-react";
 
 export default function Home() {
   return (
@@ -78,10 +77,10 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-text-dark mb-6">
               Your Competitors Are Moving.
-              <span className="block text-gradient">You're Stuck in Compliance Hell.</span>
+              <span className="block text-gradient">You&apos;re Stuck in Compliance Hell.</span>
             </h2>
             <p className="text-xl text-text-light max-w-3xl mx-auto">
-              While you're drowning in paperwork, they're capturing market share. Every day you delay is money lost and lives not saved.
+              While you&apos;re drowning in paperwork, they&apos;re capturing market share. Every day you delay is money lost and lives not saved.
             </p>
           </div>
           
@@ -92,8 +91,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-red-700 mb-4">18+ Months Wasted</h3>
               <p className="text-gray-700">
-                The average medtech startup spends 18+ months navigating regulatory requirements. 
-                <strong className="text-red-600"> That's 18 months your competitors are ahead.</strong>
+                                 The average medtech startup spends 18+ months navigating regulatory requirements. 
+                 <strong className="text-red-600"> That&apos;s 18 months your competitors are ahead.</strong>
               </p>
             </div>
             
@@ -123,7 +122,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <div className="inline-flex items-center px-6 py-3 bg-red-100 border border-red-200 rounded-lg text-red-700 font-semibold">
               <Shield className="h-5 w-5 mr-2" />
-              Stop the bleeding. There's a better way.
+              Stop the bleeding. There&apos;s a better way.
             </div>
           </div>
         </div>
@@ -137,11 +136,11 @@ export default function Home() {
               PROJECT NIGHTINGALE SOLUTION
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold text-text-dark mb-6">
-              We Don't Just Consult.
+              We Don&apos;t Just Consult.
               <span className="block text-gradient">We Guarantee Results.</span>
             </h2>
             <p className="text-xl text-text-light max-w-3xl mx-auto">
-              <strong>6-month NHS pilot guarantee</strong> or your money back. We've cracked the code on rapid medtech compliance.
+                               <strong>6-month NHS pilot guarantee</strong> or your money back. We&apos;ve cracked the code on rapid medtech compliance.
             </p>
           </div>
           
@@ -270,11 +269,11 @@ export default function Home() {
                   <Star key={i} className="h-5 w-5 text-accent fill-current" />
                 ))}
               </div>
-              <blockquote className="text-xl font-medium mb-6">
-                "Project Nightingale saved our company. Period. While other consultants talked in circles, 
-                they delivered results. <strong>6 months from compliance chaos to NHS pilot approval.</strong> 
-                Our Series A investors were blown away by our regulatory readiness."
-              </blockquote>
+                             <blockquote className="text-xl font-medium mb-6">
+                 &ldquo;Project Nightingale saved our company. Period. While other consultants talked in circles, 
+                 they delivered results. <strong>6 months from compliance chaos to NHS pilot approval.</strong> 
+                 Our Series A investors were blown away by our regulatory readiness.&rdquo;
+               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center mr-4">
                   <span className="text-primary font-bold">R</span>
@@ -301,7 +300,7 @@ export default function Home() {
               <span className="block text-gradient">For Founders.</span>
             </h2>
             <p className="text-xl text-text-light max-w-3xl mx-auto">
-              We've been exactly where you are. <strong>No ivory tower consultants here.</strong>
+                             We&apos;ve been exactly where you are. <strong>No ivory tower consultants here.</strong>
             </p>
           </div>
           
@@ -359,7 +358,7 @@ export default function Home() {
             <span className="block">Start Moving Forward.</span>
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            <strong>Free 30-minute strategy call.</strong> We'll audit your current position and show you exactly how to get NHS-ready in 6 months.
+                         <strong>Free 30-minute strategy call.</strong> We&apos;ll audit your current position and show you exactly how to get NHS-ready in 6 months.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="inline-flex items-center px-8 py-4 bg-white text-primary font-bold text-lg rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl group">
